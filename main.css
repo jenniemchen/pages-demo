@@ -1,0 +1,15 @@
+.column {
+  float: left;
+  width: 50%;
+}
+
+#main{
+  background-color: #FFFFFF;
+  width: 280px;
+  margin: 50px auto;
+  border: 0px solid;
+}
+
+html{
+  border: solid;
+}
