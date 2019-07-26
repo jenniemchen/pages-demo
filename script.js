@@ -10,3 +10,13 @@ function processRequest() {
     }
     xhr.send();
 }
+
+function changeColor() {
+  //declare variables for r,g,b values
+  var r = Math.round(Math.random() * 255);
+  var g = Math.round(Math.random() * 255);
+  var b = Math.round(Math.random() * 255);
+  console.log(r, g, b);
+  //change the background color
+  document.body.style.background = 'rgb(' +r+ ', ' +g+ ', ' +b+ ')';
+}
